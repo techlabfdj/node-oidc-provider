@@ -48,6 +48,7 @@ The following draft specifications are implemented by oidc-provider:
 
 - [JWT Response for OAuth Token Introspection - draft 10][jwt-introspection]
 - [Financial-grade API: Client Initiated Backchannel Authentication Profile (`FAPI-CIBA`) - Implementer's Draft 01][fapi-ciba]
+- [FAPI 2.0 Security Profile (`FAPI 2.0`) - Implementer's Draft 02][fapi2-id2]
 - [OAuth 2.0 Demonstration of Proof-of-Possession at the Application Layer (`DPoP`) - draft 11][dpop]
 
 Updates to draft specification versions are released as MINOR library versions,
@@ -140,3 +141,4 @@ actions and i.e. emit metrics that react to specific triggers. See the list of a
 [fapi]: https://openid.net/specs/openid-financial-api-part-2-1_0.html
 [ciba]: https://openid.net/specs/openid-client-initiated-backchannel-authentication-core-1_0-final.html
 [fapi-ciba]: https://openid.net/specs/openid-financial-api-ciba-ID1.html
+[fapi2-id2]: https://openid.net/specs/fapi-2_0-security-profile-ID2.html
