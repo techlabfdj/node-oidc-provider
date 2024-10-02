@@ -920,7 +920,7 @@ describe('client authentication options', () => {
         .expect(tokenAuthRejected)
         .expect(() => {
           expect(spy.calledOnce).to.be.true;
-          expect(errorDetail(spy)).to.equal('list of audience (aud) must include the endpoint url, issuer identifier or token endpoint url');
+          expect(errorDetail(spy)).to.equal('list of audience (aud) must only include the endpoint url, issuer identifier or token endpoint url');
         }));
     });
 
